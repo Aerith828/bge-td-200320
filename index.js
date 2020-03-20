@@ -13,7 +13,7 @@ app.get('/get_text' , (req, res) => {
     res.send({
         name: "Tom Jedusor",
         verified: false,
-        birthdate :31/12/1926,
+        birthdate :"31/12/1926",
         friends : [ "Severus Rogue" , "Bellatrix Lestrange" , "Lucius Malefoy aka Le Couard"],
     });
 });
