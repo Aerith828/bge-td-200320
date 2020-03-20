@@ -8,3 +8,11 @@ app.listen(3000, () => {
 });
 
 app.use(express.static('./public'));
+
+app.get('/get_text' , (req, res) => {
+    res.send({
+        name: "Tom Jedusor",
+        verified: " le super contenu de mon super article",
+        author :"Aerith828",
+    });
+});
