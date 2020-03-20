@@ -14,6 +14,6 @@ app.get('/get_text' , (req, res) => {
         name: "Tom Jedusor",
         verified: false,
         birthdate :"31/12/1926",
-        friends : [ "Severus Rogue" , "Bellatrix Lestrange" , "Lucius Malefoy aka Le Couard"],
+        friends : [ "Severus Rogue aka le Traître" , "Bellatrix Lestrange aka la Folle" , "Lucius Malefoy aka Le Couard"],
     });
 });
