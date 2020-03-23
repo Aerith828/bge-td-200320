@@ -1,6 +1,6 @@
-- [ ] création projet node
-- [ ] création projet git (avec commit réguliers)
-- [ ] installation express
+- [X] création projet node
+- [X] création projet git (avec commit réguliers)
+- [X] installation express
 - [ ] création index.html avec dedans :
     - [ ] html
     - [ ] css ( dans une feuille appart )
@@ -11,4 +11,4 @@
     - [ ] birthdate (Date)
     - [ ] friends (Array)
 - [ ] publication du projet sur github
-- [ ] après avoir termin", envoi du lien sur zoom ou Slack
+- [ ] après avoir terminé, envoi du lien sur zoom ou Slack
