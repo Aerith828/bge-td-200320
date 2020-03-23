@@ -9,11 +9,11 @@ app.listen(3000, () => {
 
 app.use(express.static('./public'));
 
-app.get('/get_text' , (req, res) => {
+app.get('/api/user' , (req, res) => {
     res.send({
         name: "Tom Jedusor",
         verified: false,
-        birthdate :"31/12/1926",
+        birthdate :new Date(1926, 11, 31),
         friends : [ "Severus Rogue aka le Traître" , "Bellatrix Lestrange aka la Folle" , "Lucius Malefoy aka Le Couard"],
     });
 });
