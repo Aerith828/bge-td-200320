@@ -1,15 +1,14 @@
 const express = require("express");
-const fs = require("fs");
 
-const app = express();
+const app = express();  
 
 app.listen(3000, () => {
     console.log("SERVER STARTED...");
 });
 
-app.use(express.static('./public'));
+app.use(express.static("./public"));
 
-app.get('/api/user', (req, res) => {
+app.get("/api/user", (req, res) => {
     res.send({
         name: "Tom Jedusor",
         verified: false,
